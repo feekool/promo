@@ -39,7 +39,6 @@
             padding: clamp(12px, 3vw, 20px) 0;
             border-bottom: 1px solid #eaeef2;
             gap: clamp(12px, 3vw, 16px);
-            position: sticky;
             top: 0;
             background: rgba(250, 251, 252, 0.95);
             backdrop-filter: blur(8px);
@@ -604,18 +603,15 @@
     <!-- Header / навигация -->
     <nav class="navbar" aria-label="Основная навигация">
         <div class="logo-area">
-            <a href="https://feekool.github.io" target="_blank" class="github-cat-link" aria-label="Перейти к демо-форуму">
-                <div class="cat-icon" aria-hidden="true">🐱</div>
-            </a>
+            
             <div class="brand">
                 <h1>Feekool</h1>
                 <p>форумы на GitHub Pages</p>
             </div>
         </div>
         <div class="btn-group">
-            <a href="https://feekool.github.io" target="_blank" class="btn btn-outline" aria-label="Открыть демо-версию форума">🇷🇺 Демо</a>
+            <a href="https://feekool.github.io" target="_blank" class="btn btn-outline" aria-label="Открыть демо">🇷🇺 Демо</a>
             <a href="#contact" class="btn btn-primary">✉️ Связаться</a>
-            <a href="https://feekool.github.io" target="_blank" class="btn btn-outline mobile-only">🚀 Открыть форум</a>
         </div>
     </nav>
 
@@ -627,10 +623,10 @@
         
         <div class="hero-buttons">
             <a href="https://feekool.github.io" target="_blank" class="btn btn-primary btn-large btn-full-mobile" aria-label="Посмотреть демо-версию форума">
-                👁️ Смотреть демо-форум
+                👁️ Смотреть демо
             </a>
             <a href="https://github.com/feekool/feekool.github.io" target="_blank" class="btn btn-outline btn-large btn-full-mobile" aria-label="Перейти к шаблону на GitHub">
-                📦 Использовать шаблон
+                📦 Шаблон
             </a>
         </div>
         
@@ -643,7 +639,7 @@
     <div class="quick-access" role="navigation" aria-label="Быстрые ссылки">
         <a href="https://feekool.github.io" target="_blank" class="btn btn-outline">🔗 Открыть демо</a>
         <a href="https://feekool.github.io" target="_blank" class="btn btn-outline">📱 Мобильная версия</a>
-        <a href="https://github.com/feekool/feekool.github.io" target="_blank" class="btn btn-outline">🐙 GitHub репозиторий</a>
+        <a href="https://github.com/feekool/feekool.github.io" target="_blank" class="btn btn-outline">🐙 GitHub проект</a>
         <a href="#install" class="btn btn-outline">📚 Инструкция</a>
     </div>
 
@@ -752,35 +748,23 @@
 
     <!-- Галерея -->
     <section class="section" aria-labelledby="gallery-title">
-        <h2 id="gallery-title" class="section-title">🖼️ Галерея примеров</h2>
+        <h2 id="gallery-title" class="section-title">🖼️ Галерея</h2>
         <div class="gallery" id="galleryContainer">
             <div class="gallery-item" data-id="0">
                 <div class="gallery-img" style="background-image: url('https://picsum.photos/id/13/250/160');"></div>
-                <div class="gallery-url">
-                    <input type="text" placeholder="URL картинки" value="https://picsum.photos/id/13/250/160" aria-label="URL изображения для превью">
-                    <button type="button" class="update-img">Обновить</button>
-                </div>
+                
             </div>
             <div class="gallery-item" data-id="1">
                 <div class="gallery-img" style="background-image: url('https://picsum.photos/id/26/250/160');"></div>
-                <div class="gallery-url">
-                    <input type="text" placeholder="URL картинки" value="https://picsum.photos/id/26/250/160" aria-label="URL изображения для превью">
-                    <button type="button" class="update-img">Обновить</button>
-                </div>
+                
             </div>
             <div class="gallery-item" data-id="2">
                 <div class="gallery-img" style="background-image: url('https://picsum.photos/id/85/250/160');"></div>
-                <div class="gallery-url">
-                    <input type="text" placeholder="URL картинки" value="https://picsum.photos/id/85/250/160" aria-label="URL изображения для превью">
-                    <button type="button" class="update-img">Обновить</button>
-                </div>
+                
             </div>
             <div class="gallery-item" data-id="3">
                 <div class="gallery-img" style="background-image: url('https://picsum.photos/id/155/250/160');"></div>
-                <div class="gallery-url">
-                    <input type="text" placeholder="URL картинки" value="https://picsum.photos/id/155/250/160" aria-label="URL изображения для превью">
-                    <button type="button" class="update-img">Обновить</button>
-                </div>
+                
             </div>
         </div>
         <div style="text-align: center; margin-top: 24px;">
@@ -790,7 +774,7 @@
 
     <!-- CTA блок -->
     <section class="cta-block" id="contact" aria-labelledby="cta-title">
-        <div class="offer-badge">🔥 ЛУЧШЕГО РЕШЕНИЯ СЕГОДНЯ НЕТ 🔥</div>
+        <div class="offer-badge">🔥 ЛУЧШЕГО РЕШЕНИЯ НЕТ 🔥</div>
         <h3 id="cta-title" style="font-size: clamp(1.4rem, 4.5vw, 1.9rem); margin-bottom: 12px;">Замените мессенджеры и почту</h3>
         <p style="max-width: 700px; margin: 0 auto 24px; font-size: clamp(0.95rem, 3vw, 1.05rem);">
             Discord, Telegram, WhatsApp — уходят на второй план. Получите собственное приватное пространство с полным контролем.
@@ -822,7 +806,7 @@
             👁️ Предварительная версия
         </a>
         <a href="https://github.com/feekool/feekool.github.io" target="_blank" class="btn btn-outline btn-large" aria-label="Перейти к коду проекта на GitHub">
-            🐙 GitHub репозиторий
+            🐙 GitHub проект
         </a>
     </div>
 
